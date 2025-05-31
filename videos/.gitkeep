@@ -1,0 +1,20 @@
+<!-- فيديو الخلفية: Herobrine vs Evil Sonic -->
+<video autoplay muted loop id="bg-video">
+  <source src="videos/fight-blood.webm" type="video/webm">
+  <!-- بديل في حال المتصفح ما يدعم webm -->
+  <source src="videos/fight-blood.mp4" type="video/mp4">
+</video>
+
+<style>
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.8) saturate(1.2);
+  opacity: 0.95;
+}
+</style>
